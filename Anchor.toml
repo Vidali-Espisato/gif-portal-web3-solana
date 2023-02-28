@@ -1,0 +1,17 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.devnet]
+solana_base = "6gFQc36zmVwiFpWpGoPGTgEXk3bCBThL8rpsvtvS9wrK"
+# Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/mv3n0m/.config/solana/id.json"
+
+[scripts]
+# test = "yarn run mocha -t 1000000 tests/"
+test = "node tests/solana-base.js"
